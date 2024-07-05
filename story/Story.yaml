@@ -1,43 +1,42 @@
 start:
   - play morningBGM:
   - show room: WITH FADE CONTINUE
-  - show deuzi: happy AT CENTER WITH FADE
-  - deuzi says: Hello, welcome to (bold)the Quickstart!(end)
+  - player says: (sighs heavily, staring at the screen) It's been so hard lately. Every day feels like it's blending into the next.
+  - show lana: happy AT CENTER WITH FADE
+  - lana says normal: (appears on the screen, her voice gentle and soothing) I'm here for you. Sometimes, life can feel overwhelming, but you don't have to face it alone.
+  - player says: (looks at Lana, eyes filled with a mix of sadness and hope) It's just... I feel so disconnected from everything. Like I'm drifting without any purpose.
+  - lana says: I understand. Loneliness can be like a heavy cloud, blocking out the light. But even the darkest clouds eventually pass. What helps you feel connected?
   - wait: 300
-  - deuzi says normal: Are you ready to create great visual novels?
   - choice:
-    - "Yes!":
-      - deuzi says happy: That's great! Go ahead!
-    - "Not yet!":
-      - deuzi says: Well, I'll be here when you're ready!
-  - deuzi says normal: If you're new, don't forget to play (bold)the Tutorial(end) game, where me and my friends will show you around the basic features of RenJS.
-  - deuzi says happy: And if you already have some experience, you can go ahead and start writing!
+    - "Yes! but got no energy for that":
+      - lana says happy: It's good!
+    - "I dunno":
+      - lana says normal: I see....
+  - lana says normal: What if we start small? Maybe we can read something together, just a few pages, or draw a little sketch. Sometimes, taking the first step is the hardest part.
+  - player says: (smiles faintly) You make it sound so easy.
+  - lana says: It's okay to feel like this. We can take it one step at a time, together. How about we start with a short story? I know a few that you might enjoy.
+  - player: (nods slowly) That sounds nice. I could use a distraction.
+  - lana happy: (smiles warmly) Great. Let's dive into a story then. And remember, I'm always here whenever you need someone to talk to.
+  - player : (tears well up, but there's a hint of a smile) Thank you, Lana. It means a lot.
+  - lana happy: You're not alone, even when it feels like you are. We're in this together.
   - scene: endGame
 
 endGame:
-  - deuzi says normal: Quickstart over!
   - hide ALL:
   - effect ROLLINGCREDITS:
     endGame: true
     text:
-      - RenJS.V2 created by
-      - lunafromthemoon
+      - Partner created by
+      - Wanaoki
       - null
-      - In collaboration with
-      - RockDaFox
+      - Powered by
+      - RenJs
       - null
-      - Inspired by Ren'Py
-      - Powered by PhaserJS
+      - Solana Gameshift for web2 exp
       - null
+      - null
+      - Metaplex Tools for NFT
       - null
       - Thanks for playing
-      - The Quickstart Game
-      - null
-      - background art and cgs by
-      - konett
-      - null
-      - characters by
-      - Shida
-      - null
-      - music by
-      - Evan Schaeffer
+      - Partner
+

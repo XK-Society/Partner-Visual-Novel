@@ -1,17 +1,20 @@
 
 backgrounds:
-  room: assets/backgrounds/room_day.jpg
+  room: assets/backgrounds/cozy.png
   room_night: assets/backgrounds/room_night.jpg
   room_night_light: assets/backgrounds/room_night_light.jpg
 
 characters:
-  deuzi:
-    displayName: Deuzilene
+  lana:
+    displayName: Lana
     speechColour: "#ca90cf"
     looks:
       normal: assets/characters/Char3NormalSchool.png
       happy: assets/characters/Char3HappySchool.png
-      angry: assets/characters/Char3AngrySchool.png
+      angry: assets/characters/Char3AngrySchool.png4
+  player:
+    displayName: you
+    speechColour: "#ca90cf"
 
 cgs:
   phone1: assets/objects/phone1.png
